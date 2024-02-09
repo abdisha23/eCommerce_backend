@@ -10,6 +10,6 @@ router.post('/', createBrand);
 router.put('/:id', updateBrand);
 router.delete('/:id', deleteBrand);
 router.get('/:id', getBrand);
-// router.get('/', getallBrands);
+router.get('/', getallBrands);
 
 module.exports = router;

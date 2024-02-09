@@ -28,7 +28,7 @@ router.put("/dislike-blog", disliketheBlog);
 router.put("/:id", updateBlog);
 
 router.get("/:id", getBlog);
-// router.get("/", getAllBlogs);
+router.get("/", getAllBlogs);
 
 router.delete("/:id", deleteBlog);
 

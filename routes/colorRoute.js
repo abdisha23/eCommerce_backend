@@ -12,6 +12,6 @@ router.post('/', createColor);
 router.put('/:id', updateColor);
 router.delete('/:id', deleteColor);
 router.get('/:id', getColor);
-// router.get('/', getallColors);
+router.get('/', getallColors);
 
 module.exports = router;
